@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Position Elements</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .box1 {
+        background-color: orange;
+        position: sticky;
+        top: 0px;
+      }
+      .box2 {
+        background-color: aquamarine;
+        position: sticky;
+        top: 48px;
+      }
+      .box3 {
+        background-color: bisque;
+        position: sticky;
+        top: 96px;
+      }
+      .box4 {
+        background-color: blueviolet;
+        position: sticky;
+        top: 144px;
+      }
+      .box {
+        height: 50px;
+        width: 80vh;
+        padding: 3px;
+        margin: 3px;
+        border: 2px solid blue;
+      }
+      .pg {
+        width: 50vh;
+        padding: 3px;
+        margin: 3px;
+        border: 2px solid blue;
+      }
+
+      .parent {
+        margin: 40px;
+        padding: 40px;
+        border: 2px solid red;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box box1"></div>
+      <p class="pg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+      </p>
+      <div class="box box2"></div>
+      <p class="pg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+      </p>
+      <div class="box box3"></div>
+      <p class="pg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+      </p>
+      <div class="box box4"></div>
+      <p class="pg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        optio, reiciendis aperiam veniam corporis excepturi obcaecati quaerat
+        ratione? Praesentium repellendus soluta sequi expedita, itaque quod iste
+        ad eius quidem quo! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Consequatur optio, reiciendis aperiam veniam corporis excepturi
+        obcaecati quaerat ratione? Praesentium repellendus soluta sequi
+        expedita, itaque quod iste ad eius quidem quo! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Consequatur optio, reiciendis aperiam
+        veniam corporis excepturi obcaecati quaerat ratione? Praesentium
+        repellendus soluta sequi expedita, itaque quod iste ad eius quidem quo!
+      </p>
+    </div>
+  </body>
+</html>
